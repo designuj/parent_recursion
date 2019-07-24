@@ -1,6 +1,7 @@
 package pl.designuj.projects.model;
 
 import lombok.Builder;
+import lombok.Data;
 
 import java.util.Date;
 
@@ -9,6 +10,7 @@ import java.util.Date;
  */
 
 @Builder
+@Data
 public class MyObject {
     private String id;
     private String rootId;
